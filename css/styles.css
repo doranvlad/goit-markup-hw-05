@@ -533,15 +533,16 @@ img {
 .footer-form-input {
     padding: 8px 16px;
     min-width: 264px;
+    height: 40px;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: #2E2F42;
-    color: #FFF;
+    background-color: transparent;
+    color: #FFF;    
     font-size: 12px;
     font-weight: 400;
     line-height: 2;
-    letter-spacing: 0.03;
+    letter-spacing: 0.04em;
     outline: transparent;
 }
 
@@ -558,15 +559,17 @@ img {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    min-width: 165px;
+    height: 40px;
     padding: 8px 24px;
     color: #FFF;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     border-radius: 4px;
+    cursor: pointer;
     background: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -578,6 +581,7 @@ img {
 
 
 .footer-form-icon {
+    margin-left: 16px;
     fill: #FFFFFF;
 }
 
