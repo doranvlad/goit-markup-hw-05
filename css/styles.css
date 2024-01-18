@@ -521,14 +521,12 @@ img {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
 
-.footer-form {}
-
 .footer-form-div {
-    display: inline-flex;
+    display: flex;
     gap: 24px;
 }
 
